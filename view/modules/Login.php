@@ -39,7 +39,7 @@
             </div>
             
             
-            <span>Olvido<a href="#"> Usuario/Contraseña?</a></span>
+            <span>Olvido<a href="seller-modules/seller-interface.php"> Usuario/Contraseña?</a></span>
             <span id='create_account'><a href="registro.html">Crear una cuenta/Create your account</a></span>
         </form>
 
