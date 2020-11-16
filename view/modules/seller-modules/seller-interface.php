@@ -49,41 +49,42 @@
                 <a href="../../index.php"><span class="fa fa-sign-out-alt mr-3"></span>Sign Out</a>
             </li>
         </ul>
-
+        <footer>&copy Bsic Store v1.0 REV-16112020</footer>
     </nav>
 
         <!-- Page Content  -->
     <div id="content" class="p-4 p-md-5 pt-5">
         <!-- PAGINA PRINCIPAL -->
         <div class="container">
-            <h1>BALANCE GENERAL</h1>
-
-            <div class="row">
-                <div class="card border-primary">
-                  <img class="card-img-top" src="holder.js/100px180/" alt="">
-                  <div class="card-body">
-                    <h4 class="card-title">Title</h4>
-                    <p class="card-text">Text</p>
-                  </div>
-                </div>    
-
-                <div class="card-deck">
-                    <div class="card">
-                        <img class="card-img-top" src="holder.js/100x180/" alt="">
-                        <div class="card-body">
-                            <h4 class="card-title">Title</h4>
-                            <p class="card-text">Text</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="holder.js/100x180/" alt="">
-                        <div class="card-body">
-                            <h4 class="card-title">Title</h4>
-                            <p class="card-text">Text</p>
-                        </div>
+            
+            <h1 class="text-center ">Home</h1>
+            <br>
+            <div class="card-deck">
+                <div class="card text-white bg-primary mb-3" style="max-width: 15rem;">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Balance General</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
+                <div class="card text-white bg-success mb-3" style="max-width: 15rem;">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Balance General</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card text-white bg-warning mb-3" style="max-width: 15rem;">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Balance General</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
 
+            <div class="graphics">
+                
             </div>
         </div>
 
@@ -111,23 +112,9 @@
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <footer>
+        
+    </footer>
 
     <!-- JQUERY -->
     <script src="../../assets/js/general/jquery_3.4.1.js"></script>
