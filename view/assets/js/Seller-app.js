@@ -23,7 +23,7 @@ $(document).ready(function() {
 
     // SHOW DE HOME PAGE OF SELLERS
 
-    ShowInventory();
+    ShowShome();
 
     // CHART.JS GRAPHICS 
 
