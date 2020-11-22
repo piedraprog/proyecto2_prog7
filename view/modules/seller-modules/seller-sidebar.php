@@ -28,7 +28,7 @@
             <a onclick="ShowHelp()"><span class="fa fa-hands mr-3"></span>Ayuda</a>
         </li>
         <li>
-            <a href="../../index.php"><span class="fa fa-sign-out-alt mr-3"></span>Sign Out</a>
+            <a href="../../../model/loguot.php"><span class="fa fa-sign-out-alt mr-3"></span>Sign Out</a>
         </li>
     </ul>
     <footer>&copy Bsic Store v1.0 REV-16112020</footer>

@@ -1,3 +1,14 @@
+<?php
+
+session_start();
+
+if(!isset($_SESSION['seller-email'])){
+
+    header("location: ../login.php");
+
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,6 +64,7 @@
 
     <!-- BOOTSTRAP -->
     <script src="../../assets/css/bootstrap/js/bootstrap.min.js"></script>
+
     <!-- SCRIPT APP -->
     <script src="../../assets/js/Seller-app.js"></script>
 </body>

@@ -12,7 +12,7 @@ function ShowHomepage() {
     $('#footer').show();
     $('#list').hide();
     $('#ShoppingCart').hide();
-
+    $('#User-settings').hide();
 
 
     console.log("Home Page");
@@ -24,7 +24,7 @@ function ShowShop() {
     $('#footer').hide();
     $('#list').show();
     $('#ShoppingCart').hide();
-
+    $('#User-settings').hide();
 
     console.log("Shop");
 }
@@ -35,9 +35,7 @@ function ShowShoppingCart(){
     $('#footer').hide();
     $('#list').hide();
     $('#ShoppingCart').show();
-
-
-
+    $('#User-settings').hide();
 
     console.log("ShowShoppingCart");
 }
@@ -48,6 +46,20 @@ function ShowLogin(){
     $('#footer').hide();
     $('#list').hide();
     $('#ShoppingCart').hide();
+    $('#User-settings').hide();
 
     console.log("Login");
+}
+
+
+function ShowOptionUser(){
+    $('#content').hide();
+    $('#slider').hide();
+    $('#footer').hide();
+    $('#list').hide();
+    $('#ShoppingCart').hide();
+    
+    $('#User-settings').show();
+
+    console.log("Settings");
 }
