@@ -6,25 +6,25 @@ Entrar a la página principal, con la dirección http://localhost/proyecto2_prog
 
 ![](/foto1.png)
 
-Al lado de Bsic Shoes están Home, Tienda, Carrito e iniciar sesión. En el Home sabemos que nos lleva a la página principal.
+Al lado de Bsic Shoes están los botenes: Home, Tienda, Carrito e iniciar sesión. El boton "Home" nos lleva a la página principal.
 
-El siguiente es Tienda haz clic, para ver el titulo, descripción, precio e imagen de los productos, al seleccionar uno de los productos haz clic comprar. 
+Si pulsamos clic en el boton "Tienda", podemos ver: el titulo, descripción, precio e imagen de los productos. Para seleccionar uno de los productos haz clic en el boton "comprar". 
 
 ![](/foto2a.png)
 ![](/foto2.png)
 
-Haz clic Carrito haz clic para el total de productos que tu seleccionaste, aparece las imágenes del producto, el título, la cantidad del producto, el precio (dólar_value), total de producto.
+Haz clic en el boton "Carrito"para vet el total de productos que tu seleccionaste. Donde aparecera las imágenes de los productos, el título, la cantidad del producto, el precio (dólar_value), total de producto.
 
 ![](/foto3a.png)
-Hay un botón donde dice Confirmar Compra haz clic, donde muestra un cuadro con el total de los productos, Haz clic Comprar.
+Para efectuar la compra haz clic en el botón "Confirmar Compra", donde se mostrara un cuadro con el total de los productos. Para finalizar la compra haz clic en el boto "Comprar".
 ![](/foto3.png)
 ![](/foto4.png)
 
-Lo ultimo es Iniciar sesion para acceder, ahí necesitas registrar una cuenta, haz clic donde dice “Crear una cuenta/Create your account”.
+Para "Iniciar sesion"y poder acceder a la aplicacion necesitas registrar una cuenta. Para ello haz clic en el boton “Crear una cuenta/Create your account”.
 ![](/foto5a.png)
 ![](/foto5.png)
 
 
-de ahí aparece la cedula, username, tipo de usuario, email, contraseña y foto de perfil. Con la cuenta registrada vuelve al iniciar sesion al anotar los datos
+"Luego aparecera los siguientes campos a registrar: Cedula, username, tipo de usuario, email, contraseña y foto de perfil. Con la cuenta registrada vuelve al iniciar sesion introduciendo los datos que te piden.
 
 ![](/foto6.png)
