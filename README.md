@@ -18,11 +18,11 @@ Haz clic Carrito haz clic para el total de productos que tu seleccionaste, apare
 ![](/foto3a.png)
 Hay un botón donde dice Confirmar Compra haz clic, donde muestra un cuadro con el total de los productos, Haz clic Comprar.
 ![](/foto3.png)
-
-
 ![](/foto4.png)
 
 Lo ultimo es Iniciar sesion para acceder, ahí necesitas registrar una cuenta, haz clic donde dice “Crear una cuenta/Create your account”.
+
+![](/foto5.png)
 
 
 de ahí aparece la cedula, username, tipo de usuario, email, contraseña y foto de perfil. Con la cuenta registrada vuelve al iniciar sesion al anotar los datos
