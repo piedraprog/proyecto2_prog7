@@ -4,6 +4,8 @@ Proyecto 2 de Programación 7
 
 Entrar a la página principal, con la dirección http://localhost/proyecto2_prog7-main/proyecto2_prog7-main/view/index.php
 
+![](/foto1.png)
+
 Al lado de Bsic Shoes están Home, Tienda, Carrito e iniciar sesión. En el Home sabemos que nos lleva a la página principal.
 
 El siguiente es Tienda haz clic, para ver el titulo, descripción, precio e imagen de los productos, al seleccionar uno de los productos haz clic comprar. 
