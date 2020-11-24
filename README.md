@@ -26,3 +26,5 @@ Lo ultimo es Iniciar sesion para acceder, ahí necesitas registrar una cuenta, h
 
 
 de ahí aparece la cedula, username, tipo de usuario, email, contraseña y foto de perfil. Con la cuenta registrada vuelve al iniciar sesion al anotar los datos
+
+![](/foto6.png)
