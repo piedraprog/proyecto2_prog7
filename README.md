@@ -15,6 +15,7 @@ El siguiente es Tienda haz clic, para ver el titulo, descripción, precio e imag
 
 Haz clic Carrito haz clic para el total de productos que tu seleccionaste, aparece las imágenes del producto, el título, la cantidad del producto, el precio (dólar_value), total de producto.
 
+![](/foto3a.png)
 ![](/foto3.png)
 
 Hay un botón donde dice Confirmar Compra haz clic, donde muestra un cuadro con el total de los productos, Haz clic Comprar.
