@@ -21,7 +21,7 @@ Hay un botón donde dice Confirmar Compra haz clic, donde muestra un cuadro con 
 ![](/foto4.png)
 
 Lo ultimo es Iniciar sesion para acceder, ahí necesitas registrar una cuenta, haz clic donde dice “Crear una cuenta/Create your account”.
-
+![](/foto5a.png)
 ![](/foto5.png)
 
 
