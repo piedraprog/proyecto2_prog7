@@ -16,9 +16,6 @@
             <a onclick="ShowShome()"><span class="fa fa-home mr-3"></span>Home</a>
         </li>
         <li>
-            <a onclick="ShowSales()"><span class="fas fa-shopping-bag mr-3"></span>Ventas</a>
-        </li>
-        <li>
             <a onclick="ShowInventory()"><span class="fa fa-list mr-3"></span>Inventario</a>
         </li>
         <li>

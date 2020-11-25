@@ -37,9 +37,6 @@ if(!isset($_SESSION['seller-email'])){
             <!-- PAGINA PRINCIPAL -->
             <?php include 'sellerpage.php'?>
             
-            <!-- VENTAS -->
-            <?php include 'sales.php' ?>
-
             <!-- INVENTARIO -->
             <?php include 'inventory.php'?>
 

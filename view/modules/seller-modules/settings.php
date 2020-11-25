@@ -9,12 +9,13 @@
             </div>
         <!-- SETTING CHANGE -->
         <div class="card-body">
-            <form id="settings-form" role="form" >
+            <form id="settings-form" role="form" method="POST" enctype="multipart/form-data">
                 <div class="row">
                     <div class="col-sm-6">
                         <!-- text input -->
                         <div class="form-group">
-                            <input type="hidden" id="idAdmin" value="#">
+                            <input type="hidden" id="seller-id" value="<?php echo $_SESSION['seller-id']?>">
+
                             <label>Usuario</label>
                             <input id="Suser" type="text" class="form-control" value="<?php echo $_SESSION['seller-user']?>" disabled>
                         </div>
@@ -38,8 +39,8 @@
         </div>     
         <!-- SERVER SUCCESS MESSAGE -->
         <div class="card-footer">
-            <div id="msg-change" >
-                
+            <div id="msg-success2" >
+                <p>Para que los cambios surtan efecto tiene que volver a iniciar sesion</p>
             </div> 
         </div>     
     </div>    

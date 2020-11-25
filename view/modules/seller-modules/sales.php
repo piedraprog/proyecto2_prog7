@@ -3,6 +3,4 @@
     <div class="graphics">
         <?php include 'graphics.php' ?>
     </div>
-
-
 </div>

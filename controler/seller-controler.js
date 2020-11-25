@@ -1,80 +1,80 @@
 $(document).ready(function(){
     // CHART.JS GRAPHICS 
 
-    // let popCanvas = document.getElementById("myChart").getContext("2d");
-    // let barChart = new Chart(popCanvas, {
-    //     type: 'bar',
-    //     data: {
-    //         labels: ["China", "India", "United States", "Indonesia", "Brazil", "Pakistan", "Nigeria", "Bangladesh", "Russia", "Japan"],
-    //         datasets: [{
-    //         label: 'Population',
-    //         data: [137, 1281, 321, 264, 207, 2049, 1906, 1578, 1422, 1268],
-    //         backgroundColor: [
-    //             'rgba(255, 99, 132, 0.6)',
-    //             'rgba(54, 162, 235, 0.6)',
-    //             'rgba(255, 206, 86, 0.6)',
-    //             'rgba(75, 192, 192, 0.6)',
-    //             'rgba(153, 102, 255, 0.6)',
-    //             'rgba(255, 159, 64, 0.6)',
-    //             'rgba(255, 99, 132, 0.6)',
-    //             'rgba(54, 162, 235, 0.6)',
-    //             'rgba(255, 206, 86, 0.6)',
-    //             'rgba(75, 192, 192, 0.6)',
-    //             'rgba(153, 102, 255, 0.6)'
-    //         ]
-    //         }]
-    //     }
-    // });
+    let popCanvas = document.getElementById("myChart").getContext("2d");
+    let barChart = new Chart(popCanvas, {
+        type: 'bar',
+        data: {
+            labels: ["China", "India", "United States", "Indonesia", "Brazil", "Pakistan", "Nigeria", "Bangladesh", "Russia", "Japan"],
+            datasets: [{
+            label: 'Population',
+            data: [137, 1281, 321, 264, 207, 2049, 1906, 1578, 1422, 1268],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.6)',
+                'rgba(54, 162, 235, 0.6)',
+                'rgba(255, 206, 86, 0.6)',
+                'rgba(75, 192, 192, 0.6)',
+                'rgba(153, 102, 255, 0.6)',
+                'rgba(255, 159, 64, 0.6)',
+                'rgba(255, 99, 132, 0.6)',
+                'rgba(54, 162, 235, 0.6)',
+                'rgba(255, 206, 86, 0.6)',
+                'rgba(75, 192, 192, 0.6)',
+                'rgba(153, 102, 255, 0.6)'
+            ]
+            }]
+        }
+    });
             
-    // let popCanvas2 = document.getElementById("mySecondChart").getContext("2d");
-    // let barChart2 = new Chart(popCanvas2, {
-    //     type: 'pie',
-    //     data: {
-    //         labels: [ "Brazil", "Pakistan", "Nigeria", "Bangladesh", "Russia", "Japan"],
-    //         datasets: [{
-    //         label: 'Population',
-    //         data: [ 207, 2049, 1906, 1578, 1422, 1268],
-    //         backgroundColor: [
-    //             'rgba(255, 99, 132, 0.6)',
-    //             'rgba(54, 162, 235, 0.6)',
-    //             'rgba(255, 206, 86, 0.6)',
-    //             'rgba(75, 192, 192, 0.6)',
-    //             'rgba(153, 102, 255, 0.6)',
-    //             'rgba(255, 159, 64, 0.6)',
-    //             'rgba(255, 99, 132, 0.6)',
-    //             'rgba(54, 162, 235, 0.6)',
-    //             'rgba(255, 206, 86, 0.6)',
-    //             'rgba(75, 192, 192, 0.6)',
-    //             'rgba(153, 102, 255, 0.6)'
-    //         ]
-    //         }]
-    //     }
-    // });
+    let popCanvas2 = document.getElementById("mySecondChart").getContext("2d");
+    let barChart2 = new Chart(popCanvas2, {
+        type: 'pie',
+        data: {
+            labels: [ "Brazil", "Pakistan", "Nigeria", "Bangladesh", "Russia", "Japan"],
+            datasets: [{
+            label: 'Population',
+            data: [ 207, 2049, 1906, 1578, 1422, 1268],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.6)',
+                'rgba(54, 162, 235, 0.6)',
+                'rgba(255, 206, 86, 0.6)',
+                'rgba(75, 192, 192, 0.6)',
+                'rgba(153, 102, 255, 0.6)',
+                'rgba(255, 159, 64, 0.6)',
+                'rgba(255, 99, 132, 0.6)',
+                'rgba(54, 162, 235, 0.6)',
+                'rgba(255, 206, 86, 0.6)',
+                'rgba(75, 192, 192, 0.6)',
+                'rgba(153, 102, 255, 0.6)'
+            ]
+            }]
+        }
+    });
 
-    // let popCanvas3 = document.getElementById("myThirdChart").getContext("2d");
-    // let barChart3 = new Chart(popCanvas3, {
-    //     type: 'line',
-    //     data: {
-    //         labels: [ "Brazil", "Pakistan", "Nigeria", "Bangladesh", "Russia", "Japan"],
-    //         datasets: [{
-    //         label: 'Population',
-    //         data: [ 207, 2049, 1906, 1578, 1422, 1268],
-    //         backgroundColor: [
-    //             'rgba(255, 99, 132, 0.6)',
-    //             'rgba(54, 162, 235, 0.6)',
-    //             'rgba(255, 206, 86, 0.6)',
-    //             'rgba(75, 192, 192, 0.6)',
-    //             'rgba(153, 102, 255, 0.6)',
-    //             'rgba(255, 159, 64, 0.6)',
-    //             'rgba(255, 99, 132, 0.6)',
-    //             'rgba(54, 162, 235, 0.6)',
-    //             'rgba(255, 206, 86, 0.6)',
-    //             'rgba(75, 192, 192, 0.6)',
-    //             'rgba(153, 102, 255, 0.6)'
-    //         ]
-    //         }]
-    //     }
-    // });
+    let popCanvas3 = document.getElementById("myThirdChart").getContext("2d");
+    let barChart3 = new Chart(popCanvas3, {
+        type: 'line',
+        data: {
+            labels: [ "Brazil", "Pakistan", "Nigeria", "Bangladesh", "Russia", "Japan"],
+            datasets: [{
+            label: 'Population',
+            data: [ 207, 2049, 1906, 1578, 1422, 1268],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.6)',
+                'rgba(54, 162, 235, 0.6)',
+                'rgba(255, 206, 86, 0.6)',
+                'rgba(75, 192, 192, 0.6)',
+                'rgba(153, 102, 255, 0.6)',
+                'rgba(255, 159, 64, 0.6)',
+                'rgba(255, 99, 132, 0.6)',
+                'rgba(54, 162, 235, 0.6)',
+                'rgba(255, 206, 86, 0.6)',
+                'rgba(75, 192, 192, 0.6)',
+                'rgba(153, 102, 255, 0.6)'
+            ]
+            }]
+        }
+    });
 })
 
 
@@ -193,7 +193,22 @@ function VerifyIdProd(){
 
 // PRODUCT LIST
 $('#ProductsList').ready(function(){
+    ListProducts();
+})
 
+function NewProduct(){
+    $('#ProductsList').hide();
+    $('#ProductRegister').show();
+}
+function ProductsList(){
+    $('#ProductsList').show();
+    $('#ProductRegister').hide();
+    
+    ListProducts();
+}
+
+
+function ListProducts(){
     data = { 
         id: $('#id_seller').val()
     }
@@ -230,10 +245,7 @@ $('#ProductsList').ready(function(){
         
         $('#Prolist').html(template);
     })
-
-
-})
-
+}
 
 
 //SETTINGS
@@ -266,18 +278,36 @@ $('#settings').ready(function(){
 
             e.preventDefault()
 
-            data = {
-                user:   $('#Suser').val(),
-                email:  $('#Semail').val(),
-                pic:    $('#SProPic').val()
-            }
+            formData = new FormData();
 
-            console.log(data)
+            formData.append('id_seller',  $('#seller-id').val())
+            formData.append('user',  $('#Suser').val())
+            formData.append('email',  $('#Semail').val())
+            formData.append('file',  $('#SProPic')[0].files[0])
+            
 
-            url = "../../../model/seller/settings.php";
+            console.log(formData)
 
-            $.post(url,data,request=>{
-                console.log(request);
+            url = "../../../model/seller/settings-model.php";
+
+            $.ajax({
+                url: url,
+                type: 'post',
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function(request) {
+
+                    console.log(request);
+
+                    if(request == 1){
+                        $('#msg-success2').html(`<h3 style="color:green">Éxito al agregar un Nuevo Producto</h3>`);
+            
+                    }else{
+                        $('#msg-success2').html(`<h3 style="color:red">Error al agregar un Nuevo producto, Por favor intente mas tarde</h3>`)
+            
+                    }
+                }
             })
         }
 

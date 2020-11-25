@@ -6,22 +6,25 @@
             
             <div class="card-body">
                 <h5 class="card-title">Balance General</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">$ 4500</p>
             </div>
         </div>
         <div class="card text-white bg-success mb-3" style="max-width: 15rem;">
             
             <div class="card-body">
-                <h5 class="card-title">Balance General</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Ganancias Esperadas</h5>
+                <p class="card-text">$ 8000</p>
             </div>
         </div>
         <div class="card text-white bg-warning mb-3" style="max-width: 15rem;">
             
             <div class="card-body">
-                <h5 class="card-title">Balance General</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Ventas del mes pasado</h5>
+                <p class="card-text">$ 3000</p>
             </div>
         </div>
-    </div>         
+    </div>       
+    <!-- VENTAS -->
+    <?php include 'sales.php' ?>  
 </div>
+

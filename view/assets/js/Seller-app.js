@@ -23,8 +23,8 @@ $(document).ready(function() {
 
     // SHOW DE HOME PAGE OF SELLERS
 
-    ShowInventory();
-
+    ShowShome();
+    
     
 
 
@@ -36,22 +36,13 @@ $(document).ready(function() {
 
 function ShowShome(){
     $('#seller-page').show();
-    
-    $('#sales').hide();
+    $('#sales').show();
     $('#inventory').hide();
     $('#settings').hide();
     $('#help').hide();
     
 }
 
-function ShowSales(){
-    $('#seller-page').hide();
-    
-    $('#sales').show();
-    $('#inventory').hide();
-    $('#settings').hide();
-    $('#help').hide();
-}
 
 function ShowInventory(){
     $('#seller-page').hide();
@@ -82,12 +73,3 @@ function ShowHelp(){
 }
 
 
-function NewProduct(){
-    $('#ProductsList').hide();
-    $('#ProductRegister').show();
-}
-function ProductsList(){
-    $('#ProductsList').show();
-    $('#ProductRegister').hide();
-    
-}
