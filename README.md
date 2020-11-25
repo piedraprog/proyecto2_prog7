@@ -10,7 +10,7 @@ Se desarrolló una aplicación Web que tiene como finalidad cumplir los objetivo
 
 # Instalación
 
-Esta aplicación se puede descargar del Github a su PC, ubicando las carpetas donde se encuentran los archivos que conforman este aplicativo a la siguiente dirección. “ “.
+Esta aplicación se puede descargar del Github a su PC, ubicando las carpetas donde se encuentran los archivos que conforman este aplicativo a la siguiente dirección. “http://localhost/proyecto2_prog7-main/proyecto2_prog7-main/view/index.php “.
 
  
 
