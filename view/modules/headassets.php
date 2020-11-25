@@ -5,7 +5,7 @@
 
 <!-- JQUERY -->
 <script src="assets/js/general/jquery_3.4.1.js" defer></script>
-<!-- <script src="https://code.jquery.com/jquery-3.2.1.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.2.1.js" defer></script>
 
 <!-- FONT AWESOME -->
 <script src="assets/css/fontawesome/js/all.js" defer></script>
@@ -18,3 +18,4 @@
 
 <!-- SCRIPT -->
 <script src="assets/js/app-style.js" defer></script>
+<script src="../controler/customer-controlers/show-products.js" defer></script>
