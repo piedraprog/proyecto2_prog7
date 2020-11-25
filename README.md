@@ -1,6 +1,5 @@
-# proyecto2_prog7
+# Proyecto 2 de Programación 7
 
-Proyecto 2 de Programación 7
 
 # Introducción
 
