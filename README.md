@@ -41,7 +41,7 @@ Esta aplicación se puede concatenar o integrar con un sistema de Estadísticas 
 
 # Contribución
 
-Motivado que este aplicativo está desarrollado por herramientas de programación de código denominado “Open Source”, el mismo puede ser utilizado por otros programadores que requieran rutinas o códigos parecidos en los aplicativos que estos estén desarrollando.
+Motivado que este aplicativo está desarrollado por herramientas de programación de código denominado “**Open Source**”, el mismo puede ser utilizado por otros programadores que requieran rutinas o códigos parecidos en los aplicativos que estos estén desarrollando.
 
  
 
