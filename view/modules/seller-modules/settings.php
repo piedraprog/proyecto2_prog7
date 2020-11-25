@@ -1,5 +1,6 @@
 <div class="container" id="settings">
-    <h1 class="text-center">Ajustes</h1> 
+    <h1 class="text-center">Ajustes<input type="submit" id="change" class="btn btn-primary"  value="Actualizar"></h1> 
+        
     <div  class="col-md-12">
         <!-- general form elements disabled -->
         <div class="card card-warning">
@@ -8,40 +9,38 @@
             </div>
         <!-- SETTING CHANGE -->
         <div class="card-body">
-            <form id="settings" role="form" >
+            <form id="settings-form" role="form" >
                 <div class="row">
                     <div class="col-sm-6">
                         <!-- text input -->
                         <div class="form-group">
                             <input type="hidden" id="idAdmin" value="#">
-                            <label>CAMPO</label>
-                            <input id="#" type="text" class="form-control" placeholder="CAMPO">
+                            <label>Usuario</label>
+                            <input id="Suser" type="text" class="form-control" value="<?php echo $_SESSION['seller-user']?>" disabled>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="form-group">
-                            <label>CAMPO</label>
-                            <input id="#" type="text" class="form-control" placeholder="CAMPO">
+                            <label>Email</label>
+                            <input id="Semail" type="text" class="form-control" value="<?php echo $_SESSION['seller-email']?>" disabled>
                         </div>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-sm-6">
-                        <!-- textarea -->
                         <div class="form-group">
-                            <label>CAMPO</label>
-                            <textarea id="#"class="form-control" rows="3" placeholder="CAMPO"></textarea>
+                            <label>Foto de perfil</label>
+                            <input id="SProPic" type="file" class="form-control" disabled>
                         </div>
                     </div>
                 </div>
-                <input type="submit" class="btn btn-primary" value="Confirmar Cambios">
+                <input type="submit" class="btn btn-primary" id="confirm" value="Confirmar Cambios" disabled>
+                
             </form> 
         </div>     
         <!-- SERVER SUCCESS MESSAGE -->
-        <div class="card-body">
-            <form id="#" role="form">
+        <div class="card-footer">
+            <div id="msg-change" >
                 
-            </form> 
+            </div> 
         </div>     
     </div>    
     

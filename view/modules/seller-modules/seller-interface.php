@@ -53,9 +53,10 @@ if(!isset($_SESSION['seller-email'])){
     </div>
 
 
-
+    
     <!-- JQUERY -->
     <script src="../../assets/js/general/jquery_3.4.1.js"></script>
+    <script src="../../assets/js/general/jquery-3.1.1.min.js"></script>
     <script src="../../assets/js/general/popper.js"></script>
     <script src="../../assets/js/general/popper.min.js"></script>
 
@@ -66,6 +67,7 @@ if(!isset($_SESSION['seller-email'])){
     <script src="../../assets/css/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- SCRIPT APP -->
-    <script src="../../assets/js/Seller-app.js"></script>
+    <script src="../../assets/js/seller-app.js"></script>
+    <script src="../../../controler/seller-controler.js"></script>
 </body>
 </html>

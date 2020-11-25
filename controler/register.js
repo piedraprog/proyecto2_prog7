@@ -1,36 +1,42 @@
-$('#register').submit(e => {
+$('#register').submit(e=>{
+    e.preventDefault()
 
-    e.preventDefault();
-
-    data = {
-        id_user : $('#user_id').val(),
-        username: $('#user_name').val(),
-        user_type: $('#usertype').val(),
-        email: $('#email').val(),
-        pass: $('#password').val(),
-        file: $('#file').val()
-    }
+    var formData = new FormData();
 
     const url = '../../model/login/register.php';
+    
+    formData.append('iduser', $('#user_id').val())
+    formData.append('username', $('#user_name').val())
+    formData.append('user_type', $('#usertype').val())
+    formData.append('email', $('#email').val())
+    formData.append('pass', $('#password').val())
+    formData.append('file', $('#file')[0].files[0])
 
-    console.log(data);
 
-    $.post(url, data, (respuesta) => {
-        console.log(respuesta);
+    $.ajax({
+        url: url,
+        type: 'post',
+        data: formData,
+        contentType: false,
+        processData: false,
+        success: function(response) {
 
-        if(respuesta == 1){
-            alert("Usuario Creado con éxito");
+            console.log(response)
 
-        }else if(respuesta == 2){
-            alert("Error al crear el usuario");
-        }else{
-            alert("formulario vació");
+            if(response == 1){
+                alert("Usuario Creado con éxito");
+    
+            }else if(response == 2){
+                alert("Error al crear el usuario");
+            }else{
+                alert("formulario vació");
+            }
+    
+    
+            $('#register').trigger('reset');
         }
-
-
-        $('#register').trigger('reset');
-
-
-
     });
-});
+
+
+})
+       

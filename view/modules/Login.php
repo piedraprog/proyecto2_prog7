@@ -27,8 +27,8 @@ if(isset($_SESSION['seller-email'])){
 
     <!-- JQUERY -->
     <script src="../assets/js/general/jquery_3.4.1.js" defer></script>
-    <script src="../assets/js/general/jquery-3.1.1.min.js" defer></script>
-
+    <!-- <script src="../assets/js/general/jquery-3.1.1.min.js" defer></script> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js" defer></script>
 
     <!-- FONT AWESOME -->
     <script src="../assets/css/fontawesome/js/all.js" defer></script>
@@ -86,8 +86,13 @@ if(isset($_SESSION['seller-email'])){
 
     </div>
 
+    
+
+
+
+
     <!-- REGISTER MODAL -->
-    <div class="modal fade" id="RegisterModal" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal fade" id="RegisterModal" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="#">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -100,7 +105,7 @@ if(isset($_SESSION['seller-email'])){
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="form-group">
-                            <form id="register">
+                            <form id="register" method="post"  enctype="multipart/form-data">
                                 <!-- CEDULA -->
                                 <label>Cedula</label>
                                 <input type="Number" class="form-control" id="user_id" placeholder="Ex: 21282181" required>
@@ -113,8 +118,8 @@ if(isset($_SESSION['seller-email'])){
                                 <label>Tipo de Usuario</label>
                                 
                                 <select id="usertype" class="form-control" required >
-                                    <option value="1">Usuario</option> 
-                                    <option value="2">Vendedor</option> 
+                                    <option value="2">Usuario</option> 
+                                    <option value="1">Vendedor</option> 
                                 </select>
 
                                 <!-- EMAIL -->
@@ -129,13 +134,8 @@ if(isset($_SESSION['seller-email'])){
                                 <div class="form-group">
                                     <label>Foto Perfil</label>
                                     <div class="input-group">
-                                        <div class="custom-file">
-                                            <input type="file" class="custom-file-input" id="file">
-                                            <label class="custom-file-label" for="exampleInputFile">Choose file</label>
-                                        </div>
-                                        <div class="input-group-append">
-                                            <span class="input-group-text">Upload</span>
-                                        </div>
+                                        <input type="file" class="form-control-file" id="file" >
+                                        
                                     </div>
                                 </div>
                                 <div class="form-group">

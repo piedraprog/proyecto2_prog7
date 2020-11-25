@@ -17,29 +17,18 @@
                 <h3 class="card-title">Productos</h3>
             </div>
             <thead>
+                <input type="hidden" id="id_seller" value="<?php echo $_SESSION['seller-id']?>">
                 <tr>
                     <th>Id</th>
-                    <th>Descripción</th>
+                    <th>foto</th>
+                    <th>Nombre</th>
                     <th>Precio</th>
                     <th>Disponibilidad</th>
                     <th>Mas</i> </th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>2020</td>
-                    <td>febrero</td>
-                    <td>$64.50</td>
-                    <td><label class="btn btn-block btn-success">Vigente</label></td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>2020</td>
-                    <td>marzo</td>
-                    <td>$64.50</td>
-                    <td><label class="btn btn-block btn-danger ">Debe</label></td>
-                </tr>
+            <tbody id="Prolist">
+                
             </tbody>
         </table>
     </div>
@@ -51,19 +40,27 @@
             <h3>Registro de nuevo Producto</h3>
         </div>
         <div class="card-body">
-            <form id="registrocuota" role="form">
+            <form id="product-register" role="form" method="post"  enctype="multipart/form-data">
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="form-group">
-                            
+                            <input type="hidden" id="id-seller" value="<?php echo $_SESSION['seller-id'] ?>">
                             <label>Codigo del producto</label>
-                            <input id="#" type="text" class="form-control" placeholder="fecha">
+                            <input id="Prod-id" onkeyup="VerifyIdProd()" type="text" class="form-control" placeholder="fecha">
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="form-group">
-                            <label>Descripcion del Producto</label>
-                            <input id="#" type="text" class="form-control" placeholder="fecha venciento">
+                            <label>Nombre del Producto</label>
+                            <input id="Prod-name" type="text" class="form-control" placeholder="Descripcion del producto">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label>Descripción del Producto</label>
+                            <input id="Prod-desc" type="text" class="form-control" placeholder="Descripcion del producto">
                         </div>
                     </div>
                 </div>
@@ -71,30 +68,36 @@
                     <div class="col-sm-6">
                         <div class="form-group">
                             <label>Precio de Producto</label>
-                            <textarea id="#" class="form-control"  placeholder="descripcion"></textarea>
+                            <textarea id="Prod-price" class="form-control"  placeholder="descripcion"></textarea>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="form-group">
                             <label>Tipo de Producto</label>
-                            <textarea id="#" class="form-control"  placeholder="descripcion"></textarea>
+                            <select id="Prod-type" class="form-control" required >
+                                
+                            </select>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
-                    <label>Foto de Producto</label>
-                        <div class="custom-file">
-                            
-                            <input type="file" class="custom-file-input" id="exampleInputFile">
-                            <label class="custom-file-label" for="exampleInputFile">Choose file</label>
-                        </div>
+                        <label>Foto de Producto</label>
+                        <input type="file" name="archivo" id="Prodpic">
+                    </div>
+                    <div class="col-sm-6">
+                        <label>Cantidad del Producto</label>
+                        <input type="number" class="form-control" id="Prod-quantity">
                     </div>
                 </div>
                 <br>
-                <button type="button" class="btn btn-primary">Registrar Nuevo Producto</button>
+                <button type="submit" id="btn1" class="btn btn-primary">Registrar Nuevo Producto</button>
                 
-            </form> 
+            </form>
+            <div id="msg-success" class="card-footer text-muted">
+                
+            </div>
+            
         </div>
             
         

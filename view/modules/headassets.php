@@ -5,6 +5,7 @@
 
 <!-- JQUERY -->
 <script src="assets/js/general/jquery_3.4.1.js" defer></script>
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.js"></script> -->
 
 <!-- FONT AWESOME -->
 <script src="assets/css/fontawesome/js/all.js" defer></script>

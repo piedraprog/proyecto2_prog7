@@ -8,7 +8,7 @@
     <div class="img bg-wrap text-center py-4" style="background-image: url(../../assets/img/img1.jpg);">
         <div class="user-logo">
             <div class="img" style="background-image: url(../../assets/img/img5.jpg);"></div>
-            <h3 >USER NAME</h3>
+            <h3><?php echo $_SESSION['seller-user'] ?></h3>
         </div>
     </div>
     <ul class="list-unstyled components mb-5">

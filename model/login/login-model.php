@@ -32,9 +32,10 @@ if(isset($_POST['user']) && isset($_POST['pass'])){
 
             // VARIABLE SESSIONS QUE SE MANEJAN DE MANERA GLOBAL Y PERMITEN HACER ACCIONES CON PHP
             $_SESSION['seller-email'] = $data['email'];
-            $_SESSION['seller-id-'] = $data['pk_user'];
+            $_SESSION['seller-id'] = $data['pk_user'];
             $_SESSION['seller-user'] = $data['username'];
-
+            
+            
         }else if($data['fk_type'] == '2'){
 
             echo "2";
