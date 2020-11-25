@@ -2,29 +2,64 @@
 
 Proyecto 2 de Programación 7
 
-Entrar a la página principal, con la dirección http://localhost/proyecto2_prog7-main/proyecto2_prog7-main/view/index.php
+# Introducción
 
-![](/foto1.png)
+Se desarrolló una aplicación Web que tiene como finalidad cumplir los objetivos pautados por el profesor de esta unidad curricular. Esta aplicación es una compra en tiendas, la cual puede operar en dispositivos móviles y portátiles o PC, y el mismo fue desarrollado con las herramientas de programación tales como: PHP, Ajax, JavaScript, Jquery, el manejador de base de datos PostGreSql y el gestor de sistemas XAMPP.
 
-Al lado de Bsic Shoes están los botenes: Home, Tienda, Carrito e iniciar sesión. El botón **Home** nos lleva a la página principal.
+ 
 
-Si pulsamos clic en el boton **Tienda**, podemos ver: el titulo, descripción, precio e imagen de los productos. Para seleccionar uno de los productos haz clic en el boton "comprar". 
+# Instalación
 
-![](/foto2a.png)
-![](/foto2.png)
+Esta aplicación se puede descargar del Github a su PC, ubicando las carpetas donde se encuentran los archivos que conforman este aplicativo a la siguiente dirección. “ “.
 
-Haz clic en el botón **Carrito** para ver el total de productos que tu seleccionaste. Donde aparecera las imágenes de los productos, el título, la cantidad del producto, el precio (dólar_value), total de producto.
+ 
 
-![](/foto3a.png)
-Para efectuar la compra haz clic en el botón **Confirmar Compra**, donde se mostrara un cuadro con el total de los productos. Para finalizar la compra haz clic en el botón **Comprar**.
-![](/foto3.png)
-![](/foto4.png)
+# Documentación
 
-Para **Iniciar sesion** y poder acceder a la aplicacion necesitas registrar una cuenta. Para ello haz clic en el boton **Crear una cuenta/Create your account**.
-![](/foto5a.png)
-![](/foto5.png)
+Modelo Entidad-Relación
 
+ 
 
-Luego aparecera los siguientes campos a registrar: Cedula, username, tipo de usuario, email, contraseña y foto de perfil. Con la cuenta registrada vuelve al iniciar sesion introduciendo los datos que te piden.
+# Navegadores que lo soportan
 
-![](/foto6.png)
+* Internet Explorer
+
+* Google Chrome
+
+* Microsoft Edge
+
+* Opera Safari
+
+* Mozilla Firefox
+
+ 
+
+# Proyección
+
+Esta aplicación se puede concatenar o integrar con un sistema de Estadísticas que controle las ventas bien sea por productos, vendedores, y cualquier otro parámetro que se quiera incluir al mismo para su mejor uso.
+
+ 
+
+# Contribución
+
+Motivado que este aplicativo está desarrollado por herramientas de programación de código denominado “Open Source”, el mismo puede ser utilizado por otros programadores que requieran rutinas o códigos parecidos en los aplicativos que estos estén desarrollando.
+
+ 
+
+ 
+
+# Expectativas logradas
+
+A lo largo del desarrollo de este proyecto se aprendieron nuevas técnicas y herramientas de programación y se afianzaron los conocimientos de las técnicas que se han usado en proyectos anteriores, todo ello motivado para poder alcanzar el objetivo planteado.
+
+ 
+
+# Integrantes
+
+José Piedra C.I: V-
+
+Anderson Villalobos C.I: V-
+
+Luis Contreras C.I: V-
+
+Luis Garavito C.I: V- 29.887.720
