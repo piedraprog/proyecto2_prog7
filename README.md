@@ -55,10 +55,10 @@ A lo largo del desarrollo de este proyecto se aprendieron nuevas técnicas y her
 
 # Integrantes
 
-José Piedra C.I: V-
+José Piedra, 
+ 
+Anderson Villalobos  
 
-Anderson Villalobos C.I: V-
+Luis Contreras 
 
-Luis Contreras C.I: V-
-
-Luis Garavito C.I: V- 29.887.720
+Luis Garavito 
