@@ -16,7 +16,7 @@ if($result) {
 
             'prod_id' => $row['pk_product'],
             'prod_name' => $row['product_name'],
-            'prod_img' => "<img style='height:100px; width:100px;' src='data:image/jpeg; base64,".base64_encode(pg_unescape_bytea($row['picture']))."'>",
+            'prod_img' => "data:image/jpeg; base64,".base64_encode(pg_unescape_bytea($row['picture']))."",
             'price' => $row['dolar_price'],
             'quantity' => $row['product_qty'],
             'prod_dscp' => $row['dscp'],
