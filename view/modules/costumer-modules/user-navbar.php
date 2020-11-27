@@ -14,7 +14,7 @@
                         <a class="nav-link" onclick="ShowShop()">Tienda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="ShowShoppingCart()"><i class="fa fa-shopping-cart" aria-hidden="true"></i><label id="NumberProducts"></label></a>
+                        <a class="nav-link" onclick="ShowShoppingCart()"><i class="fa fa-shopping-cart" aria-hidden="true"></i>(<label id="NumberProducts">0</label>)</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" onclick="ShowOptionUser()">Opciones</a>

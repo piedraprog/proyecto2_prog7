@@ -26,7 +26,7 @@ function lastProducts(){
                                 <h4 class="card-title">${element.prod_name}</h4>
                                 <h5 class="card-title">$ ${element.price}</h5>
                                 <p class="card-text">${element.prod_dscp}</p>
-                                <input onclick="InsertIntoCart('${element.prod_name}')"type="submit" class="btn btn-primary"value="Añadir al Carrito">
+                                <input onclick="InsertIntoCart('${element.prod_name}','${element.prod_id}','${element.prod_img}','${element.price}','${element.quantity}','${element.prod_dscp}')"type="submit" class="btn btn-primary"value="Añadir al Carrito">
                             </div>
                         </div>`;
 
@@ -40,19 +40,20 @@ function lastProducts(){
 
 }
 
-
 ArrayProduct = [];
+function InsertIntoCart(prod_name,prod_id,prod_img,price,quantity,prod_dscp){
 
-counter = "";
-
-function InsertIntoCart(ProdName){
-
-
-    console.log("añadido al carrito")
+    
+    // console.log("añadido al carrito")
 
     const product = {
 
-        Prod_name: ProdName
+        Prod_name: prod_name,
+        Prod_id: prod_id,
+        Prod_img: prod_img,
+        price: price,
+        quantity: quantity,
+        prod_dscp: prod_dscp
 
     }
 
@@ -62,18 +63,55 @@ function InsertIntoCart(ProdName){
 
     UpdateCart();
 
+    
 }
 
 
 function UpdateCart(){
 
 
-    let Items= ArrayProduct.length;
-
-    console.log(Items)
+    $('#NumberProducts').ready(function(){
+        var quantityOfProd = JSON.parse(localStorage.Product);
+    
+        $('#NumberProducts').html("("+quantityOfProd.length+")")
+    })
+  
+   
 }
 
 
-$('#NumberProducts').ready(function(){
-    
+$('#Mylist').on('click',e=>{
+
+    e.preventDefault();
+
+    ProdTotal = 0;
+
+    var quantityOfProd = JSON.parse(localStorage.Product);
+
+    template = "";
+
+    quantityOfProd.forEach(element => {
+        
+        console.log(element);
+
+        subTotal = element.quantity * element.price;
+        ProdTotal = subTotal + ProdTotal;
+
+        console.log("aqui")
+
+        template+=`<th scope="row"><img src="${element.Prod_img}" alt=""></th>
+                <td>${element.Prod_name}</td>
+                <td>${element.quantity}</td>
+                <td>${element.price}</td>
+                <td>$1000</td>`
+    });
+
+
+    console.log("total de los productos"+ProdTotal);
 })
+
+
+    
+
+
+

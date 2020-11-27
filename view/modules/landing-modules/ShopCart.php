@@ -1,6 +1,7 @@
 <div id="ShoppingCart" class="ShoppingCart">
     <div class="container ">
-        <h1>Carrito de compras <i class="fa fa-shopping-cart" aria-hidden="true"></i></h1>   
+        <h1>Carrito de compras <i class="fa fa-shopping-cart" aria-hidden="true"></i></h1>
+        <button id="Mylist">listar mis productos</button>   
         <table class="table Cart">
             <thead>
                 <tr>
@@ -11,7 +12,7 @@
                     <th scope="col">total</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody id="cart-list">
                 <tr>
                     <th scope="row"><img src="assets/img/img1.jpg" alt=""></th>
                     <td>Nike AIR FORCE ONE</td>
