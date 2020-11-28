@@ -9,7 +9,7 @@ if(isset($_SESSION['seller-email'])){
 
 }else if(isset($_SESSION['buyer-email'])){
 
-    header("location: ../index.php");
+    header("location: ../../index.php");
 
 }
 
@@ -78,7 +78,7 @@ if(isset($_SESSION['seller-email'])){
             
             
             <span>Olvido<a href="#"> Usuario/Contraseña?</a></span>
-            <span>Volver<a href="../index.php"> homepage</a></span>
+            <span>Volver<a href="../../index.php"> homepage</a></span>
             <span id='create_account' data-toggle="modal" data-target="#RegisterModal"><a href="#">Crear una cuenta/Create your account</a></span>
         </form>
 

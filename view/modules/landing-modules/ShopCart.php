@@ -12,28 +12,28 @@
                     <th scope="col">total</th>
                 </tr>
             </thead>
-            <tbody id="cart-list">
-                <tr>
-                    <th scope="row"><img src="assets/img/img1.jpg" alt=""></th>
+            <tbody id="cart-list" id="cart-list">
+                <!-- <tr>
+                    <th scope="row"><img src="view/assets/img/img1.jpg" alt=""></th>
                     <td>Nike AIR FORCE ONE</td>
                     <td>2</td>
                     <td>$500</td>
                     <td>$1000</td>
                 </tr>
                 <tr>
-                    <th scope="row"><img src="assets/img/img2.jpg" alt=""></th>
+                    <th scope="row"><img src="view/assets/img/img2.jpg" alt=""></th>
                     <td>Nike AIR FORCE ONE</td>
                     <td>3</td>
                     <td>$450</td>
                     <td>$1350</td>
                 </tr>
                 <tr>
-                    <th scope="row"><img src="assets/img/img3.jpg" alt=""></th>
+                    <th scope="row"><img src="view/assets/img/img3.jpg" alt=""></th>
                     <td>Nike AIR FORCE ONE</td>
                     <td>2</td>
                     <td>$500</td>
                     <td>$1000</td>
-                </tr>
+                </tr> -->
             </tbody>
             <tfoot>
                 <tr>
@@ -41,13 +41,13 @@
                     <th scope="col"></th>
                     <th scope="col"></th>
                     <th scope="col">Total</th>
-                    <th scope="col">$ 3350</th>
+                    <th scope="col" id="total"></th>
                 </tr>
             </tfoot>
         </table>
         
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary btn-lg " data-toggle="modal" data-target="#modelId">
+        <button id="btn-confirm" type="button" class="btn btn-primary btn-lg " data-toggle="modal" data-target="#modelId">
           Confirmar Compra
         </button>
         
@@ -59,7 +59,7 @@
                             <h5 class="modal-title">Confirmar Compra</h5>        
                         </div>
                     <div class="modal-body">
-                        <div class="container-fluid">
+                        <div class="container-fluid" >
                             <table class="table Cart">    
                                 <thead>
                                     <tr>
@@ -70,33 +70,15 @@
                                         <th scope="col">total</th>
                                     </tr>
                                 </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Nike AIR FORCE ONE</td>
-                                        <td>2</td>
-                                        <td>$500</td>
-                                        <td>$1000</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Nike AIR FORCE ONE</td>
-                                        <td>3</td>
-                                        <td>$450</td>
-                                        <td>$1350</td>
-                                    </tr>
-                                    <tr>
-                                        
-                                        <td>Nike AIR FORCE ONE</td>
-                                        <td>2</td>
-                                        <td>$500</td>
-                                        <td>$1000</td>
-                                    </tr>
+                                <tbody id="readytobuy">
+                                    <!-- CONFIRM LIST -->
                                 </tbody>
                                 <tfoot>
                                     <tr>
                                         <th scope="col"></th>
                                         <th scope="col"></th>
                                         <th scope="col">Total</th>
-                                        <th scope="col">$ 3350</th>
+                                        <th scope="col" id="readytotal"></th>
                                     </tr>
                                 </tfoot>
                             </table>
@@ -104,7 +86,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-                        <button type="button" class="btn btn-primary">Comprar</button>
+                        <button type="button" id="buy" class="btn btn-primary">Comprar</button>
                     </div>
                 </div>
             </div>
