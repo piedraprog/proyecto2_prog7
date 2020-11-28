@@ -2,6 +2,7 @@
 <link rel="stylesheet" href="view/assets/css/Landing-page/content.css">
 <link rel="stylesheet" href="view/assets/css/Landing-page/ShoppingCart.css">
 <link rel="stylesheet" href="view/assets/css/Landing-page/footer-style.css">
+<link rel="stylesheet" href="view/assets/js/App-style.js">
 
 <!-- JQUERY -->
 <script src="view/assets/js/general/jquery_3.4.1.js" defer></script>

@@ -1,9 +1,10 @@
 <?php
 
-$user = "postgres";
-$pass = "1234";
-$host ="localhost";
-$db = "PROVII";
+
+$user = "#";
+$pass = "#";
+$host ="#";
+$db = "#";
 
 //$con = null;
 

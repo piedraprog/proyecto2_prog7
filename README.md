@@ -55,7 +55,7 @@ A lo largo del desarrollo de este proyecto se aprendieron nuevas técnicas y her
 
 # Integrantes
 
-José Piedra, 
+José Piedra 
  
 Anderson Villalobos  
 

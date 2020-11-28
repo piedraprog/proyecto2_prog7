@@ -17,7 +17,7 @@
                         <a  class="nav-link" onclick="ShowShoppingCart()"><i class="fa fa-shopping-cart" aria-hidden="true"></i><label id="NumberProducts"></label></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="modules/Login.php">Iniciar Sesion</a>
+                        <a class="nav-link" href="view/modules/Login.php">Iniciar Sesion</a>
                     </li>
                 </ul>
             </div>
