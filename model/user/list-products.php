@@ -3,6 +3,7 @@
 include '../conect.php';
 
 $query = "SELECT * FROM pro.tbl_products TL INNER JOIN pro.tbl_users U ON TL.fk_seller = U.pk_user;";
+//$query = "SELECT * FROM pro.tbl_products TL INNER JOIN pro.tbl_users U ON TL.fk_seller = U.pk_user;";
 
 $result = pg_query($con,$query);
 

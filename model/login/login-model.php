@@ -9,6 +9,8 @@ session_start();
 if(isset($_POST['user']) && isset($_POST['pass'])){
     
     
+    // $user = "1@1.COM";
+    // $pass = "123";
     $user = pg_escape_string($con, $_POST['user']);
     $pass = pg_escape_string($con, $_POST['pass']);
 

@@ -20,13 +20,13 @@ $('#form_right').submit(e=>{
             console.log("seller");
             $(location).attr('href', 'seller-modules/seller-interface.php');
 
-        }else if(request = "2"){
+        }else if(request == "2"){
             
-            console.log("buyer");   
-            $(location).attr('href', '../index.php');
+            console.log(request);   
+            $(location).attr('href', '../../index.php');
 
         
-        }else if(request = "3"){
+        }else if(request == "3"){
             
             console.log("admin");
             $(location).attr('href', '#');
