@@ -28,5 +28,5 @@
             <a href="../../../model/loguot.php"><span class="fa fa-sign-out-alt mr-3"></span>Sign Out</a>
         </li>
     </ul>
-    <footer>&copy Bsic Store v27.11.20.0.3</footer>
+    <footer>&copy Bsic Store v 29.11.20</footer>
 </nav>

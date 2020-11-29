@@ -1,4 +1,4 @@
-# Proyecto 2 de Programación 7
+# Proyecto 2 de Programación 7 rev 29/11/20
 
 
 # Introducción
@@ -57,6 +57,30 @@ A lo largo del desarrollo de este proyecto se aprendieron nuevas técnicas y her
 3- arreglar el almacenamiento de imágenes, ahora se esta haciendo guardando la imagen en la db(hace que las consultas tarden un poco mas y ocupen mas espacio al ser exportado).
 
 4- agregar rutinas de eliminar cosas de la db. 
+
+5- colocar efectos de que se esta trabajando a la hora de hacer alguna acción o confirmación.
+
+6- Hacer interfaz de Administrador(definir requerimientos de esta)
+
+7- hacer un hash de seguridad para que no se guarde la contraseña asi como asi si no que tenga una codificación para mas seguridad 
+
+8- los detalles en la imagen de perfil de usuario vendedor
+
+9- resolver el manejo de actualización de valores del carrito y listado automatico en la seccion de carrito. 
+
+
+
+# Usuarios y nivel de acceso 
+
+Comprador - user: c@c.com pass: 123 
+Vendedor - user: V@gmail.com pass: 123
+
+
+# Instalacion de la Base de datos 
+
+ Se utilizo PostgradeSql 12, para correrlo de manera local hay que crear una Base de datos nueva(cualquier nombre se le puede dar) y al hacerlo buscar la opcion de restore y seleccionar el archivo (restore.backup) que se dejo en este mismo repositorio
+
+
 
 # Integrantes
 
