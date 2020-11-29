@@ -78,7 +78,7 @@ Vendedor - user: V@gmail.com pass: 123
 
 # Instalacion de la Base de datos 
 
- Se utilizo PostgradeSql 12, para correrlo de manera local hay que crear una Base de datos nueva(cualquier nombre se le puede dar) y al hacerlo buscar la opcion de restore y seleccionar el archivo (restore.backup) que se dejo en este mismo repositorio
+ Se utilizo PostgradeSql 12, para correrlo de manera local hay que crear una Base de datos nueva(cualquier nombre se le puede dar) y al hacerlo buscar la opcion de restore y seleccionar el archivo (DB/Db_backup) que se dejo en este mismo repositorio
 
 
 
