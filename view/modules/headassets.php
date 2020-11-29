@@ -19,5 +19,5 @@
 <script src="view/assets/css/bootstrap/js/bootstrap.min.js" defer></script>
 
 <!-- SCRIPT -->
-<script src="view/assets/js/app-style.js" defer></script>
+<script src="view/assets/js/App-style.js" defer></script>
 <script src="controler/customer-controlers/show-products.js" defer></script>
